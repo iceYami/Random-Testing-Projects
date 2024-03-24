@@ -1,4 +1,5 @@
 def encode(message, key):
+
     message_numbers = [ord(char) - ord('a') + 1 for char in message]
     
     key_digits = [int(digit) for digit in str(key)]
