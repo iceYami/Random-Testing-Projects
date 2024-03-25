@@ -1,3 +1,5 @@
+#Cifrado Cifrastún de MG
+
 def cifrar_texto(texto):
     resultado = ""
     alfabeto_espanol = "abcdefghijklmnopqrstuvwxyz"
@@ -39,7 +41,7 @@ def descifrar_texto(texto):
     return resultado
 
 def menu():
-    print("¡Bienvenida al Cifrastun!")
+    print("¡Bienvenida al Cifrastun de MG!")
     while True:
         print("\nMenu:")
         print("1. Cifrar un texto")
